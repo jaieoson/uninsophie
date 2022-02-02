@@ -1,2 +1,0 @@
-# uninsophie
-algo mais
