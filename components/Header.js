@@ -1,5 +1,6 @@
 import Link from 'next/link'
-
+import Image from 'next/image'
+import profilePic from '../public/img/logo.png'
 
 export default function Header() {
     return (
@@ -7,7 +8,9 @@ export default function Header() {
 
 <nav className="navbar navbar-light navbar-expand-lg text-white bg-dark fixed-top">
   <div className="container-fluid ">
-  <img src="img/logo.png" width={60}/>
+
+
+  <Image src={profilePic} width={60} height={60} />
   
   <Link href={'/'}>
     <a>

@@ -4,10 +4,10 @@ import Content from "../Components/Content";
 
 export default function IndexPage() {
   return (
-    <>
+    <div>
       <Header />
       <Content />
       <Footer />
-    </>
+    </div>
   );
 }

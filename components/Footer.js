@@ -1,5 +1,6 @@
 import Link from 'next/link'
-
+import Image from 'next/image';
+import profilePic from '../public/img/logo.png'
 
 export default function Header() {
     return (
@@ -12,7 +13,9 @@ export default function Header() {
 <Link href={"/"}>
           <a className="navbar-brand copyright">
             
-            <p className="branco"> <img src="img/logo.png" width={30}/> from UNISOPHIE </p>
+            <p className="branco"> 
+            
+            <Image src={profilePic} width={30} height={30}/> from UNISOPHIE </p>
           </a>
 </Link>
 

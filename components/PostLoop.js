@@ -1,5 +1,6 @@
 
-
+import Image from 'next/image';
+import profilePic from '../public/img/logo.png'
 
 export default function select(){
 
@@ -20,7 +21,7 @@ export default function select(){
             <div className="card shadow-sm">
 
 
-            <img src="img/logo.png" width={300}/>
+            <Image src={profilePic} width={300}/>
         
               <div className="card-body">
                 <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>

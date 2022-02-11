@@ -4,10 +4,10 @@ import Post from "../Components/Post";
 
 export default function IndexPost() {
   return (
-    <>
+    <div>
       <Header />
       <Post />
       <Footer />
-    </>
+    </div>
   );
 }
