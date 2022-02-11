@@ -1,43 +1,54 @@
+import Link from 'next/link'
 
 
 export default function Header() {
     return (
       <header>
 
-<nav class="navbar navbar-light navbar-expand-lg text-white bg-dark fixed-top">
-  <div class="container-fluid ">
+<nav className="navbar navbar-light navbar-expand-lg text-white bg-dark fixed-top">
+  <div className="container-fluid ">
   <img src="img/logo.png" width={60}/>
   
-    <a  href="/">
+  <Link href={'/'}>
+    <a>
       
      <p className="logotipo"> UNISOPHIE </p>
 
       </a>
+</Link>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-      <span class="navbar-toggler-icon"></span>
+    <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span className="navbar-toggler-icon"></span>
     </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header">
+    <div className="offcanvas offcanvas-end"  id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div className="offcanvas-header">
 
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">UNISOPHIE</h5>
+        <h5 className="offcanvas-title" id="offcanvasNavbarLabel">UNISOPHIE</h5>
 
         
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page" href="/">Home</a>
+      <div className="offcanvas-body">
+        <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li className="nav-item">
+
+            <Link href={"/"}>
+            <a className="nav-link active text-white" aria-current="page">Home</a>
+            </Link>
+
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="/post">Posts</a>
+          <li className="nav-item">
+
+            <Link href={"/post"}>
+            <a className="nav-link text-white">Posts</a>
+            </Link>
+
           </li>
      
         </ul>
-        <form class="d-flex">
+        <form className="d-flex">
        
-          <button class="btn btn-outline-success" type="submit">Create</button>
+          <button className="btn btn-outline-success" type="submit">Create</button>
         </form>
       </div>
     </div>

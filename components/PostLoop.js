@@ -1,3 +1,6 @@
+
+
+
 export default function select(){
 
     // esse component recebe os dados do db e faz um loop conforme a qtd de itens retornados
@@ -12,7 +15,8 @@ export default function select(){
           items.push(
           
             <a href="https://unisophie.vercel.app/poster">
-            <div className="col">
+
+            <div className="col" key={elements.toString()}>
             <div className="card shadow-sm">
 
 
@@ -29,6 +33,8 @@ export default function select(){
               </div>
             </div>
           </div>
+
+          
        </a>
           
           

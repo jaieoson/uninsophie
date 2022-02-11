@@ -12,7 +12,7 @@ function Content(){
 
                  <h2>ESTUDOS SUPERIORES UNISOPHIE </h2>
 
-<p class="line typing-animation">
+<p className="line typing-animation">
 Senatores boni viri, senatus autem bestia. 
 </p>
 
@@ -58,9 +58,9 @@ presidiram à criação dos Cursos de Ensino Superior de Davos e o empreendiment
 cabo das dificuldades inerentes a cada fundação. Possam eles prosperar, oferecer a muitos um 
 enriquecimento interior, e suprimir assim a severidade da vida no sanatório.
 
-
-</p>
 <p className="autor">Albert Einstein</p>
+</p>
+
 
 </div>
 
