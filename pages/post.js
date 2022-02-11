@@ -1,12 +1,12 @@
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
-import Content from "../Components/Content";
+import Post from "../Components/Post";
 
-export default function IndexPage() {
+export default function IndexPost() {
   return (
     <>
       <Header />
-      <Content />
+      <Post />
       <Footer />
     </>
   );
