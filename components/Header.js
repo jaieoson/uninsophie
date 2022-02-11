@@ -10,7 +10,7 @@ export default function Header() {
   <div className="container-fluid ">
 
 
-  <Image src={profilePic} width={60} height={60} />
+  <Image src={profilePic} width={60} height={60} alt="logo"/>
   
   <Link href={'/'}>
     <a>

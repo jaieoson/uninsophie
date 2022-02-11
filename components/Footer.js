@@ -15,7 +15,7 @@ export default function Header() {
             
             <p className="branco"> 
             
-            <Image src={profilePic} width={30} height={30}/> from UNISOPHIE </p>
+            <Image src={profilePic} width={30} height={30} alt="logo"/> from UNISOPHIE </p>
           </a>
 </Link>
 
