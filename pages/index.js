@@ -1,6 +1,6 @@
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
-import Content from "../Components/Content";
+import Header from "../Components/Header.js";
+import Footer from "../Components/Footer.js";
+import Content from "../Components/Content.js";
 
 export default function IndexPage() {
   return (

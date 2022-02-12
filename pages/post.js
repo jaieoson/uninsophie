@@ -1,6 +1,6 @@
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
-import Post from "../Components/Post";
+import Header from "../Components/Header.js";
+import Footer from "../Components/Footer.js";
+import Post from "../Components/Post.js";
 
 export default function IndexPost() {
   return (
