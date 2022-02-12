@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import profilePic from '../public/img/logo.png'
 
-export default function Header() {
+function Header() {
     return (
       <header>
 
@@ -63,3 +63,4 @@ export default function Header() {
     );
   }
   
+  export default Header
