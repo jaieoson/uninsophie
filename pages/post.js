@@ -2,7 +2,7 @@ import Header from "../Components/Header.js";
 import Footer from "../Components/Footer.js";
 import Post from "../Components/Post.js";
 
-export default function IndexPost() {
+function IndexPost() {
   return (
     <div>
       <Header />
@@ -11,3 +11,4 @@ export default function IndexPost() {
     </div>
   );
 }
+export default IndexPost

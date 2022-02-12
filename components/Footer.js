@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image';
 import profilePic from '../public/img/logo.png'
 
-export default function Header() {
+function Header() {
     return (
       <nav
         className="footer"
@@ -23,3 +23,4 @@ export default function Header() {
       </nav>
     );
   }
+  export default Header

@@ -2,7 +2,7 @@ import Header from "../Components/Header.js";
 import Footer from "../Components/Footer.js";
 import Content from "../Components/Content.js";
 
-export default function IndexPage() {
+function IndexPage() {
   return (
     <div>
       <Header />
@@ -11,3 +11,5 @@ export default function IndexPage() {
     </div>
   );
 }
+
+export default IndexPage
