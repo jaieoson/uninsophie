@@ -22,7 +22,7 @@ Senatores boni viri, senatus autem bestia.
 
 
 
-    <label className="hide" for="item-1">X</label>
+    <label className="hide" htmlFor="item-1">X</label>
 
 
 

@@ -1,3 +1,9 @@
+import Image from 'next/image'
+
+import audiOff from '../public/img/icon-audio-off.png'
+import audioPlay from '../public/img/icon-audio.png'
+
+
 import { useEffect, useRef, useState } from "react";
 
 
@@ -32,12 +38,12 @@ function Player() {
       <div>
           {isPlaying ? (
               <button onClick={toggleIsPlaying}>
-                <img src="img/icon-audio.png" width={40} height={40} />
+                <Image src={audioPlay} width={40} height={40} />
               </button>
             ): (
               <button onClick={toggleIsPlaying}>
 
-                  <img src="img/icon-audio-off.png" width={40} height={40} />
+                  <Image src={audiOff} width={40} height={40} />
                 
                 </button>
             )

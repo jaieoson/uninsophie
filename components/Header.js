@@ -2,6 +2,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import profilePic from '../public/img/logo.png'
 
+
+
 import Player from './Player';
 
 function Header() {
