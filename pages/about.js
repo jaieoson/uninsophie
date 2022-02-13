@@ -1,6 +1,34 @@
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Post from "../components/Post";
 
 
-export default function AboutPage() {
-    return <div>About us</div>
+function AboutPage() {
+
+
+
+
+    return (
+    
+    <div>
+
+<Header />
+     
+
+
+     <h2>About us</h2>
+
+
+  <h2>  UNISOPHIE é a ação de unir o conhecimento e construir caminhos.</h2>
+      
+
+<Footer/>
+
+      </div>
+
+    )
+
   }
+
+  export default AboutPage
   

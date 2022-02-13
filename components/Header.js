@@ -2,6 +2,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import profilePic from '../public/img/logo.png'
 
+import Player from './Player';
+
 function Header() {
     return (
       <header>
@@ -19,6 +21,9 @@ function Header() {
 
       </a>
 </Link>
+
+
+
 
     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <span className="navbar-toggler-icon"></span>
@@ -47,14 +52,48 @@ function Header() {
             </Link>
 
           </li>
+
+          <li className="nav-item">
+
+<Link href={"/about"}>
+<a className="nav-link text-white">About</a>
+</Link>
+
+</li>
+
+
      
         </ul>
         <form className="d-flex">
        
-          <button className="btn btn-outline-success" type="submit">Create</button>
+          <div className="btn btn-outline-success" >
+            
+            <Link href={'/create'}>
+
+            <a>Create</a>
+            
+            </Link>
+            </div>
+
+
+            
+
         </form>
+
+
+
+  <Player/>
+
+
+
+        
       </div>
     </div>
+
+
+
+
+    
   </div>
 </nav>
 

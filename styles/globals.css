@@ -165,16 +165,20 @@ height: 60px;
 }
 
 .content{
-  margin-top: 30px;
+  margin-top:0px;
   color: rgba(14, 226, 43, 0.75);
   padding: 1em;
   background-color: #000;
+  border-width: medium;
+  border-style: solid;
+  border-color: #fff;
   opacity: 0.9;
 }
 
 h2{
   color: #ffffff;
   margin-top: 60px;
+  
 }
 
 @media (max-width: 600px) {
@@ -225,3 +229,27 @@ h2{
 .autor{
   color: #fff;
 }
+
+.autorCreator{
+  color: #fff;
+  font-size: 2em;
+  background-color: #000;
+  opacity: 0.5;
+ 
+}
+
+
+input:checked + .content{
+
+  display: none;
+  
+  
+  }
+
+  .hide{
+    float: right;
+    border: #fff solid 2px;
+    border-radius: 150px;
+    width: 30px;
+    text-align: center;
+  }

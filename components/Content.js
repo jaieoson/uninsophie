@@ -10,16 +10,26 @@ function Content(){
 
 <div >
 
-                 <h2>ESTUDOS SUPERIORES UNISOPHIE </h2>
+                 <h2>ESTUDOS SUPERIORES</h2>
 
 <p className="line typing-animation">
 Senatores boni viri, senatus autem bestia. 
 </p>
 
+<input type="checkbox" id="item-1"/>
+
+<div className="content">
 
 
 
-<p className="content">
+    <label className="hide" for="item-1">X</label>
+
+
+
+
+
+
+<p >
 Um professor suíço meu amigo escrevia um dia, 
 deste modo engraçado, a uma faculdade universitária que o havia irritado. As comunidades se 
 preocupam muito menos com os problemas de responsabilidade e de consciência do que os 
@@ -29,8 +39,8 @@ E no entanto, somente uma cooperação para além dos sentimentos poderia estabe
 valor. A maior alegria para um amigo dos homens está aqui: à custa de terríveis sofrimentos, 
 organiza-se um empreendimento coletivo com o único objetivo de desenvolver a vida e a 
 civilização. 
-Esta alegria imensa foi-me oferecida quando ouvi falar dos cursos de estudos superiores em 
-Davos, desta obra de salvamento, inteligentemente concebida e habilmente dirigida, que 
+Esta alegria imensa foi-me oferecida quando ouvi falar dos cursos de estudos superiores do 
+UNISOPHIE, desta obra de salvamento, inteligentemente concebida e habilmente dirigida, que 
 corresponde a uma grave necessidade não percebida de imediato. Com efeito, muitos jovens vêm 
 para aqui, para este vale maravilhosamente batido de sol para reencontrar a saúde. Afastado, porém, 
 dos estudos e de sua disciplina fortificante, entregue a desânimos depressivos, o doente perde 
@@ -54,12 +64,13 @@ mais proveitosa porque as circunstâncias de sua criação sublinham bastante a 
 posição política. Serve-se mais à causa da compreensão internacional na medida em que se participa 
 de uma obra que promova a vida. 
 Para mim é uma alegria refletir sobre este programa. Porque a energia e a inteligência 
-presidiram à criação dos Cursos de Ensino Superior de Davos e o empreendimento já ultrapassou o 
+presidiram à criação dos Cursos de Ensino Superior do UNISOPHIE e o empreendimento já ultrapassou o 
 cabo das dificuldades inerentes a cada fundação. Possam eles prosperar, oferecer a muitos um 
 enriquecimento interior, e suprimir assim a severidade da vida no sanatório.
 
 <p className="autor">Albert Einstein</p>
 </p>
+</div>
 
 
 </div>
