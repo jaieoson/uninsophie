@@ -17,7 +17,7 @@ function Header() {
   <Image src={profilePic} width={60} height={60} alt="logo"/>
   
   <Link href={'/'}>
-    <a>
+    <a className='logo1'>
       
      <p className="logotipo"> UNISOPHIE </p>
 
@@ -42,7 +42,7 @@ function Header() {
         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li className="nav-item">
 
-            <Link href={"/"}>
+            <Link href={"/library3D"}>
             <a className="nav-link active text-white" aria-current="page">Home</a>
             </Link>
 
@@ -72,7 +72,7 @@ function Header() {
             
             <Link href={'/create'}>
 
-            <a>Create</a>
+            <a className='logo1'>Create</a>
             
             </Link>
             </div>

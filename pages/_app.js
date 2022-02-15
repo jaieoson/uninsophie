@@ -1,3 +1,5 @@
+import React from "react";
+
 // referenciando cabeçalho
 import Head from "next/head"; 
 

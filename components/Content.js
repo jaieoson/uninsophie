@@ -12,15 +12,20 @@ function Content(){
 
                  <h2>ESTUDOS SUPERIORES</h2>
 
-<p className="line typing-animation">
-Senatores boni viri, senatus autem bestia. 
-</p>
 
-<input type="checkbox" id="item-1"/>
+<h2>Enter the universe of knowledge</h2>
+
+
+<input className="check1" type="checkbox" id="item-1"/>
+
+
 
 <div className="content">
 
 
+<p className="line typing-animation">
+Senatores boni viri, senatus autem bestia. 
+</p>
 
     <label className="hide" htmlFor="item-1">X</label>
 
@@ -71,6 +76,29 @@ enriquecimento interior, e suprimir assim a severidade da vida no sanatório.
 <p className="autor">Albert Einstein</p>
 </p>
 </div>
+
+
+
+<input className="check2" type="checkbox" id="item-2"/>
+
+
+<div className="content2">
+
+<label className="hide2" htmlFor="item-2">A</label>
+
+Estudos superiores é o modo superior de estudar determinada área do saber humano, utilizando o que há de mais moderno 
+em tecnologia: inteligência artificial, apredizado de máquina, análise de big data, Realidade Aumentada e Realidade virtual. 
+Fazendo uso e co-criando e difundiando, compartilhando o saber de diversas maneiras possíveis.
+
+Com as atuais ferramentas tecnológicas que o 5G torna possível, o metaverso se torna possível e com isso este empreendimento, 
+que é um esforço coletivo para tornar real o acesso ao conhecimento superior das ciencias terráqueas.
+
+
+UNISOPHIE pretende criar junto com vocês, ferramentas educacionais e maneiras novas de aprender com esses recursos.
+
+Unindo as pessoas ao redor do conhecimento.
+</div>
+
 
 
 </div>

@@ -38,12 +38,12 @@ function Player() {
       <div>
           {isPlaying ? (
               <button onClick={toggleIsPlaying}>
-                <Image src={audioPlay} width={40} height={40} />
+                <Image src={audioPlay} width={30} height={30} />
               </button>
             ): (
               <button onClick={toggleIsPlaying}>
 
-                  <Image src={audiOff} width={40} height={40} />
+                  <Image src={audiOff} width={30} height={30} />
                 
                 </button>
             )
