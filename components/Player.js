@@ -7,7 +7,7 @@ import audioPlay from '../public/img/icon-audio.png'
 import { useEffect, useRef, useState } from "react";
 
 
-function Player() {
+export default function Player() {
 
     const audioRef = useRef(null)
 
@@ -68,5 +68,4 @@ function Player() {
 
   }
 
-  export default Player
   

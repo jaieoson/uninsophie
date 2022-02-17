@@ -6,7 +6,7 @@ import profilePic from '../public/img/logo.png'
 
 import Player from './Player';
 
-function Header() {
+export default function Header() {
     return (
       <header>
 
@@ -104,4 +104,3 @@ function Header() {
     );
   }
   
-  export default Header

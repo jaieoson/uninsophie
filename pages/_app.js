@@ -1,17 +1,12 @@
 import React from "react";
-
-// referenciando cabeçalho
 import Head from "next/head"; 
-
-
-// adiciona bootstrap css
 import 'bootstrap/dist/css/bootstrap.css'
- // arquivo css de config. global
+
  import '../styles/globals.css';
 
 import { useEffect } from "react";
 
-function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap");
@@ -37,4 +32,4 @@ function MyApp({ Component, pageProps }) {
 
 }
 
-export default MyApp
+

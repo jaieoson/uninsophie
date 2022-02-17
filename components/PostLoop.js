@@ -2,10 +2,7 @@
 import Image from 'next/image';
 import profilePic from '../public/img/logo.png'
 
-function Select(){
-
-    // esse component recebe os dados do db e faz um loop conforme a qtd de itens retornados
-    // sempre que precisar disso em um projeto podemos utilizar os componentes prontos
+export default function ListElements(){
 
         const elements = 20;
       
@@ -51,6 +48,6 @@ function Select(){
       }
 
     
-      export default Select
+
     
     

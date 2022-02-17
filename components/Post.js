@@ -5,7 +5,7 @@ import Li from '../components/PostLoop'
 
 
 
-function Post(){
+ export default function Post(){
     return(
 
       <div className="album py-5">
@@ -24,4 +24,3 @@ function Post(){
     )
   }
 
-  export default Post

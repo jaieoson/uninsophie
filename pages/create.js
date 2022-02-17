@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import FormPost from "../components/FormPost";
 
 
-function CreatePage() {
+export default function CreatePage() {
 
 
 
@@ -35,5 +35,5 @@ function CreatePage() {
 
   }
 
-  export default CreatePage
+
   

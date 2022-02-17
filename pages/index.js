@@ -5,7 +5,7 @@ import Content from "../components/Content";
 //import {backgroundVideo} from "../public/videos/library.mp4";
 
 
-function IndexPage() {
+export default function IndexPage() {
 
 
  
@@ -25,4 +25,4 @@ function IndexPage() {
   );
 }
 
-export default IndexPage
+

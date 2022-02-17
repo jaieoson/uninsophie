@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import { Player } from 'video-react';
 import "../node_modules/video-react/dist/video-react.css"; 
 
-function Videolibrary3D() {
+export default function Videolibrary3D() {
     return (
       <div>
    <Header />
@@ -28,4 +28,3 @@ function Videolibrary3D() {
     );
   }
   
-  export default Videolibrary3D

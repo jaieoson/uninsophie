@@ -2,7 +2,7 @@
 
 
 
-function Content(){
+export default function Content(){
 
 
     return(
@@ -108,5 +108,3 @@ Unindo as pessoas ao redor do conhecimento.
     )
 
 }
-
-export default Content

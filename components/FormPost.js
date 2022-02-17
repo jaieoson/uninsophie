@@ -6,7 +6,7 @@ import React, {useState} from "react";
 
 
 
-function FormCreatePostUni(){
+export default function FormCreatePostUni(){
 
 
     const [workCoverImage, setImage] = useState('')
@@ -69,4 +69,3 @@ Describe what you are putting together. It can be a job to choose. Or simply the
 
 }
 
-export default FormCreatePostUni
