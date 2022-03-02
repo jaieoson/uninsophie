@@ -11,7 +11,7 @@ export default function Videolibrary3D() {
    <Header />
 
 
-
+<div className="play3d">
 
 <Player className="play3d"
       autoplay
@@ -20,6 +20,7 @@ export default function Videolibrary3D() {
       src="../videos/library.mp4"
    />
   
+</div>
 
 
   <Footer />

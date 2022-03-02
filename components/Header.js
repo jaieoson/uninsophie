@@ -70,9 +70,9 @@ export default function Header() {
        
           <div className="btn btn-outline-success" >
             
-            <Link href={'/create'}>
+            <Link href={'/login'}>
 
-            <a className='logo1'>Create</a>
+            <a className='logo1'>Enter</a>
             
             </Link>
             </div>

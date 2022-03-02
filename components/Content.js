@@ -13,7 +13,6 @@ export default function Content(){
                  <h2>ESTUDOS SUPERIORES</h2>
 
 
-<h2>Enter the universe of knowledge</h2>
 
 
 <input className="check1" type="checkbox" id="item-1"/>
@@ -88,7 +87,7 @@ enriquecimento interior, e suprimir assim a severidade da vida no sanatório.
 
 Estudos superiores é o modo superior de estudar determinada área do saber humano, utilizando o que há de mais moderno 
 em tecnologia: inteligência artificial, apredizado de máquina, análise de big data, Realidade Aumentada e Realidade virtual. 
-Fazendo uso e co-criando e difundiando, compartilhando o saber de diversas maneiras possíveis.
+Fazendo uso e co-criando e difundindo, compartilhando o saber de diversas maneiras possíveis.
 
 Com as atuais ferramentas tecnológicas que o 5G torna possível, o metaverso se torna possível e com isso este empreendimento, 
 que é um esforço coletivo para tornar real o acesso ao conhecimento superior das ciencias terráqueas.

@@ -374,3 +374,13 @@ input:checked + .content{
   .logo1{
     text-decoration: none;
   }
+
+  .picker{
+
+    margin-top: 10em;
+  }
+
+  .play3d{
+
+    margin-top:3em;
+  }

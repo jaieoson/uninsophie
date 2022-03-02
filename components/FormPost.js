@@ -16,7 +16,21 @@ export default function FormCreatePostUni(){
 const uploadImageHeader = async e =>{
 
     e.preventDefault()
-    alert(workCoverImage)
+
+  
+
+//boas funcoes
+//alert(print(reader));
+
+let photo = document.getElementById("input").files[0];
+let formData = new FormData();
+     
+formData.append("photo", photo);
+fetch('../public/img/', {method: "POST", body: formData});
+
+
+
+
 }
 
 
@@ -25,14 +39,17 @@ const uploadImageHeader = async e =>{
 
 
 <form onSubmit={uploadImageHeader}>
+
+
+
   <div className="form-group">
 
   <label htmlFor="exampleFormControlFile1">Cover image</label>
   <br></br>
 
-    <input type="file" onChange={e => setImage(e.target.files[0])} className="form-control-file" id="exampleFormControlFile1"/><br></br>
+    <input type="file" accept='image/*' onChange={e => setImage(e.target.files[0])} className="form-control-file" id="input" capture/><br></br>
 
-    {workCoverImage ? <Image src={URL.createObjectURL(workCoverImage)} alt="user image" /> : <Image src={ImagePostDefault} alt="user image" width="300" height="300"/> }
+    {workCoverImage ? <Image src={URL.createObjectURL(workCoverImage)} alt="user image" width="710" height="180"/> : <Image src={ImagePostDefault} alt="user image" width="300" height="300"/> }
 
 
 

@@ -1,10 +1,14 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-import FormPost from "../components/FormPost";
+import Login from "../components/Login";
 
 
 export default function CreatePage() {
+
+
+
+
 
 
     return (
@@ -18,10 +22,8 @@ export default function CreatePage() {
 
 
      <div className="autorCreator">
-
+<Login/>
  
-
-<FormPost/>
 
      </div>
       
@@ -32,6 +34,3 @@ export default function CreatePage() {
     )
 
   }
-
-
-  
