@@ -5,22 +5,32 @@ import Li from '../components/PostLoop'
 
 // pode chamar uma função para autenticar o usuario
 
+// essa autenticação deve estar em um lugar e ser chamada sempre que precisar
+// permitir acesso a pagina
 
-function LogarUserUniAdm(props){
+
+function LogarUserUniAdm(email, senha){
 
 
     let userUniAdmEmail = 'jaieosom@gmail.com';
     let userUniAdmPass = '123456';
 
 
-    if(userUniAdmEmail == props && userUniAdmPass == props){
+    if(userUniAdmEmail == email && userUniAdmPass == senha){
 
-//se sim  envia para
+//se sim  envia para OU GERA UM TOKEn e direciona
+//const logado = true;
+alert('logado com sucesso')
+
+window.location.href = "http://www.devmedia.com.br";
 
 
     }else{
-
+//const logado = false;
 //senao envia para
+
+
+
 
     }
 

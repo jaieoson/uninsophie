@@ -10,7 +10,8 @@ export default function Header() {
     return (
       <header>
 
-<nav className="navbar navbar-light navbar-expand-lg text-white bg-dark fixed-top">
+<nav className="navbar navbar-light navbar-expand-lg text-white bg-black fixed-top">
+
   <div className="container-fluid ">
 
 
@@ -27,19 +28,26 @@ export default function Header() {
 
 
 
-    <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+    <button className="navbar-toggler bg-white" type="button" data-bs-toggle="offcanvas" 
+    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+     
       <span className="navbar-toggler-icon"></span>
+
     </button>
     <div className="offcanvas offcanvas-end"  id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div className="offcanvas-header">
 
-        <h5 className="offcanvas-title" id="offcanvasNavbarLabel">UNISOPHIE</h5>
+        <h5 className="offcanvas-title text-black" id="offcanvasNavbarLabel">UNISOPHIE</h5>
 
         
         <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-      <div className="offcanvas-body">
+
+
+      <div className="offcanvas-body bg-black">
+
         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+
           <li className="nav-item">
 
             <Link href={"/library3D"}>
@@ -66,6 +74,7 @@ export default function Header() {
 
      
         </ul>
+
         <form className="d-flex">
        
           <div className="btn btn-outline-success" >
@@ -81,6 +90,12 @@ export default function Header() {
             
 
         </form>
+
+
+<br/>
+
+
+
 
 
 
