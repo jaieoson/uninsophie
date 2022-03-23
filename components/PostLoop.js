@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import profilePic from '../public/img/logo.png'
 
@@ -46,8 +45,3 @@ export default function ListElements(){
           </div>
         )
       }
-
-    
-
-    
-    

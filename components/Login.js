@@ -9,11 +9,11 @@ import Li from '../components/PostLoop'
 // permitir acesso a pagina
 
 
-function LogarUserUniAdm(email, senha){
+function LogarUserUniAdm(){
 
 
-    let userUniAdmEmail = 'jaieosom@gmail.com';
-    let userUniAdmPass = '123456';
+    let userUniAdmEmail = document.getElementById('email');
+    let userUniAdmPass = document.getElementById('senha');
 
 
     if(userUniAdmEmail == email && userUniAdmPass == senha){
@@ -28,8 +28,8 @@ window.location.href = "http://www.devmedia.com.br";
     }else{
 //const logado = false;
 //senao envia para
-
-
+alert('erro')
+window.location.href = "http://www.facebook.com";
 
 
     }
@@ -47,10 +47,17 @@ export default function Login(){
 
     <p>Email e senha para entrar</p>       
     
-<input type="email" className='email' placeholder='email' ></input>
-<br/><br/>
-<input type="password" className='pass' placeholder='password'></input>
+    <form onSubmit={LogarUserUniAdm}>
 
+<input type="email" className='email' placeholder='email' id='email' ></input>
+<br/><br/>
+<input type="password" className='pass' placeholder='password' id='senha'></input>
+
+<br></br>
+
+<input type="submit" />
+
+</form>
 
 
 
